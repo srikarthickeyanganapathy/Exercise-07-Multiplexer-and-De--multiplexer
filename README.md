@@ -47,42 +47,41 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
  
 ### Procedure
-/* write all the steps invloved */
+#### 1.Using OR Gate and wires construct 4:1 Multiplexer
+#### 2.Repeat the same steps to construct 1:4 Demultiplexer
+#### 3.Find RTL Logic and Timing diagram for both Multiplexer and Demultiplexer
+#### 4.End the program
 
-
-
-### PROGRAM 
-/*
+### PROGRAM 1:
+![program](./mul.png)
+### PROGRAM 2:
+![program](./demul.png)
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Sri Karthickeyan Ganapathy
+RegisterNumber:  22008592
+```
 
 
 
 
 
 
-### RTL LOGIC  
+### RTL LOGIC 1:
+![RTL LOGIC](./mulrtl.png)
+### RTL LOGIC 2:
+![RTL LOGIC](./demulrtl.png)
 
 
+### TIMING DIGRAMS 1: 
+![TIMING DIGRAMS](./multd.png)
+### TIMING DIGRAMS 2: 
+![TIMING DIGRAMS](./demultd.png)
 
+### TRUTH TABLE 1:
+![TRUTH TABLE](./MultiplexerTT.png)
+### TRUTH TABLE 2:
+![TRUTH TABLE](./DemultiplexerTT.png)
 
-
-
-
-
-### TIMING DIGRAMS  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
-### RESULTS 
+### RESULT:
+Thus the Multiplexer and Demultiplexer circuits are designed and the truth table is verified using quartus software.
